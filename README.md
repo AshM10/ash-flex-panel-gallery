@@ -48,8 +48,6 @@ Users should be able to:
 - An element in CSS can be both a flex item as well as a flex container. 
 - You can nest a flexbox as much as you want.
 
-To see how you can add code snippets, see below:
-
 ```css
   .panel > *:first-child {
         transform: translateY(-100%);
