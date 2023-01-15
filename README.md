@@ -62,6 +62,8 @@ Users should be able to:
         transform: translateY(0);
       }
  ```
+ 
+ *The ` * ` in this CSS code is a universal selector, which selects all elements on the page. In this case, it is being used to select the first and last child elements of any element with the class "panel" and "open-active" and applies the corresponding CSS styles (transform: translateY) to those elements.*
 
 ```js
  panels.forEach((panel) => panel.addEventListener("click", toggleOpen));
